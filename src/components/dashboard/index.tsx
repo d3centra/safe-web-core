@@ -9,9 +9,7 @@ import PsaBanner from '@/components/common/PsaBanner/index'
 const Dashboard = (): ReactElement => {
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12}>
-        <PsaBanner />
-      </Grid>
+      <PsaBanner />
       <Grid item xs={12} md={12} lg={6}>
         <Overview />
       </Grid>
