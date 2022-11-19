@@ -3,8 +3,6 @@ import styled from '@emotion/styled'
 import { Grid, Link } from '@mui/material'
 import { Card, WidgetBody, WidgetContainer } from '../styled'
 import { useRouter } from 'next/router'
-import NextLink from 'next/link'
-import { AppRoutes } from '@/config/routes'
 import { SafeAppsTag } from '@/config/constants'
 import { useRemoteSafeApps } from '@/hooks/safe-apps/useRemoteSafeApps'
 
