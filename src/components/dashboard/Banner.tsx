@@ -6,6 +6,8 @@ import styled from '@emotion/styled'
 import { Box, Button, Grid, Skeleton, Typography } from '@mui/material'
 import { Card, WidgetBody, WidgetContainer } from '../styled'
 
+const Banner = () => {
+
 return (
 
 <b>This is an alternative frontend for Safe. If there is substantial interest in this, we will consider developing (social) features for it. Read more here, follow us on Twitter and share your feature requests.</b>
@@ -13,3 +15,4 @@ return (
 )
 
 export default Overview
+}
