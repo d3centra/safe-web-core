@@ -7,7 +7,7 @@ import SafeAppsDashboardSection from '@/components/dashboard/SafeAppsDashboardSe
 
 const Dashboard = (): ReactElement => {
   return (
-    <a style="background:red"> Feature request </a>
+    <div padding="10px"><a background="red">Feature request</a></div>
     <Grid container spacing={3}>
       <Grid item xs={12} md={12} lg={6}>
         <Overview />
