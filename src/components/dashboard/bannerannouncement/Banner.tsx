@@ -39,9 +39,8 @@ export const Banner = (): ReactElement | null => {
                     <Card>
                         <Grid item xs={12} md={9}>
                           <Box mb={1.01}>
-                            <Typography fontSize="lg">This is an alternative frontend for Safe. If there is substantial interest in this, we will consider developing (social) features for it. Read more here, follow us on Twitter and share your feature requests. This is an alternative frontend for Safe. If there is substantial interest in this, we will consider developing (social) features for it. Read more here, follow us on Twitter and share your feature requests. Read more here, follow us on Twitter and share your feature requests. Read more here, follow us on Twitter and share your feature requests.</Typography>
+                            <Typography fontSize="lg">This is an alternative frontend for Safe.</Typography>
                           </Box>
-
                           <Link color="primary.main" fontWeight="bold" component="span">
                             Use {app.name}
                           </Link>
