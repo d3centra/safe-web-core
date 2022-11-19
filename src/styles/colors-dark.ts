@@ -47,7 +47,7 @@ const darkPalette = {
   background: {
     default: '#000000',
     main: '#000000',
-    paper: '#000000',
+    paper: 'radial-gradient(#2a293030, #54555829)',
     light: '#1B2A22',
   },
   logo: {
