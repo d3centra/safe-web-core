@@ -12,7 +12,6 @@ const Dashboard = (): ReactElement => {
       <Grid item xs={12}>
         <Banner />
       </Grid>
- 
       <Grid item xs={12} md={12} lg={6}>
         <Overview />
       </Grid>
