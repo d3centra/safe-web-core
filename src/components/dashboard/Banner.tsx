@@ -39,4 +39,4 @@ const Banner = (): ReactElement | null => {
   ) : null
 }
 
-export default 
+export default Banner
