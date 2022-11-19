@@ -32,6 +32,7 @@ export const Banner = (): ReactElement | null => {
       <WidgetContainer id="featured-safe-apps">
         <WidgetBody>
           <StyledGrid container>
+            {featuredApps?.map((app) => (
               <StyledGridItem item xs md key={app.id}>
                 <NextLink passHref href={{ pathname: AppRoutes.apps, query: { ...router.query, appUrl: app.url } }}>
                   <a>
@@ -47,6 +48,7 @@ export const Banner = (): ReactElement | null => {
                   </a>
                 </NextLink>
               </StyledGridItem>
+            ))}
           </StyledGrid>
         </WidgetBody>
       </WidgetContainer>
