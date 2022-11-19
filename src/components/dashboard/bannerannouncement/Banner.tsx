@@ -29,14 +29,7 @@ export const Banner = (): ReactElement | null => {
     <Grid item xs={12} md>
       <WidgetContainer id="featured-safe-apps">
         <WidgetBody>
-          <StyledGrid container>
-<Card>
-<Grid container alignItems="center" spacing={3}>
-<Grid item xs={12} md={9}>
-<Link color="primary.main" fontWeight="bold" component="span">This is an alternative frontend for Safe.</Link>
-</Grid>
-</Grid>
-</Card>
+          <StyledGrid container><Card><Grid container alignItems="center" spacing={3}><Grid item xs={12} md={9}><Link color="primary.main" fontWeight="bold" component="span">This is an alternative frontend for Safe.</Link></Grid></Grid></Card>
           </StyledGrid>
         </WidgetBody>
       </WidgetContainer>
