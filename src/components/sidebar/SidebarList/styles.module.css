@@ -11,7 +11,7 @@
 }
 
 .listItemButton {
-  border-radius: 6px;
+  border-radius: 12px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
@@ -22,7 +22,7 @@
 
 .list :global .MuiListItemButton-root:hover,
 .list :global .Mui-selected {
-  border-radius: 6px;
+  border-radius: 12px;
   background-color: var(--color-secondary-background);
 }
 
