@@ -7,6 +7,7 @@ import SafeAppsDashboardSection from '@/components/dashboard/SafeAppsDashboardSe
 
 const Dashboard = (): ReactElement => {
   return (
+    <Banner />
     <Grid container spacing={3}>
       <Grid item xs={12} md={12} lg={6}>
         <Overview />
