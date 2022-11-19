@@ -4,7 +4,7 @@ import PendingTxsList from '@/components/dashboard/PendingTxs/PendingTxsList'
 import Overview from '@/components/dashboard/Overview/Overview'
 import { FeaturedApps } from '@/components/dashboard/FeaturedApps/FeaturedApps'
 import SafeAppsDashboardSection from '@/components/dashboard/SafeAppsDashboardSection/SafeAppsDashboardSection'
-import Banner from '@/components/dashboard/bannerannouncement/Banner'
+import { Banner } from '@/components/dashboard/bannerannouncement/Banner'
 
 const Dashboard = (): ReactElement => {
   return (
