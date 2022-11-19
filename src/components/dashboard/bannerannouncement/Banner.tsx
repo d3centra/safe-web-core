@@ -38,17 +38,9 @@ export const Banner = (): ReactElement | null => {
                   <a>
                     <Card>
                       <Grid container alignItems="center" spacing={3}>
-                        <Grid item xs={12} md={3}>
-                          <StyledImage src={app.iconUrl} alt={app.name} />
-                        </Grid>
-
                         <Grid item xs={12} md={9}>
-                          <Box mb={1.01}>
-                            <Typography fontSize="lg">This is an alternative frontend for Safe.</Typography>
-                          </Box>
-
                           <Link color="primary.main" fontWeight="bold" component="span">
-                            Use {app.name}
+                            This is an alternative frontend for Safe.
                           </Link>
                         </Grid>
                       </Grid>
