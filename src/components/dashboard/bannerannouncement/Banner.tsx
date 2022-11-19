@@ -28,30 +28,22 @@ export const Banner = (): ReactElement | null => {
   if (!featuredApps?.length && !remoteSafeAppsLoading) return null
 
   return (
-    <Grid item xs={12} md>
-      <WidgetContainer id="featured-safe-apps">
-        <WidgetBody>
-          <StyledGrid container>
-            {featuredApps?.map((app) => (
-              <StyledGridItem item xs md key={app.id}>
-                <NextLink passHref href={{ pathname: AppRoutes.apps, query: { ...router.query, appUrl: app.url } }}>
-                  <a>
-                    <Card>
-                      <Grid container alignItems="center" spacing={3}>
-                        <Grid item xs={12} md={9}>
-                          <Link color="primary.main" fontWeight="bold" component="span">
-                            This is an alternative frontend for Safe.
-                          </Link>
-                        </Grid>
-                      </Grid>
-                    </Card>
-                  </a>
-                </NextLink>
-              </StyledGridItem>
-            ))}
-          </StyledGrid>
-        </WidgetBody>
-      </WidgetContainer>
-    </Grid>
+<Grid item xs={12} md>
+  <WidgetContainer id="featured-safe-apps">
+    <WidgetBody>
+      <StyledGrid container>
+        <Card>
+          <Grid container alignItems="center" spacing={3}>
+            <Grid item xs={12} md={9}>
+              <Link color="primary.main" fontWeight="bold" component="span">
+                This is an alternative frontend for Safe.
+              </Link>
+            </Grid>
+          </Grid>
+        </Card>
+      </StyledGrid>
+    </WidgetBody>
+  </WidgetContainer>
+</Grid>;
   )
 }
