@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import styled from '@emotion/styled'
-import { Box, Grid, Typography, Link } from '@mui/material'
+import { Grid, Link } from '@mui/material'
 import { Card, WidgetBody, WidgetContainer } from '../styled'
 import { useRouter } from 'next/router'
 import NextLink from 'next/link'
