@@ -4,10 +4,14 @@ import PendingTxsList from '@/components/dashboard/PendingTxs/PendingTxsList'
 import Overview from '@/components/dashboard/Overview/Overview'
 import { FeaturedApps } from '@/components/dashboard/FeaturedApps/FeaturedApps'
 import SafeAppsDashboardSection from '@/components/dashboard/SafeAppsDashboardSection/SafeAppsDashboardSection'
+import styled from '@emotion/styled'
+import { Box, Button, Grid, Skeleton, Typography } from '@mui/material'
 
 const Dashboard = (): ReactElement => {
   return (
-    <div padding="10px"><a background="red">Feature request</a></div>
+<Button size="medium" variant="contained" color="primary">
+                        View assets
+                      </Button>
     <Grid container spacing={3}>
       <Grid item xs={12} md={12} lg={6}>
         <Overview />
