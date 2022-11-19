@@ -43,5 +43,5 @@ export const Banner = (): ReactElement | null => {
     </WidgetBody>
   </WidgetContainer>
 </Grid>;
-  )
+  ))
 }
