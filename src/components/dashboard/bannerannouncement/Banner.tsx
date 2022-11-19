@@ -21,7 +21,7 @@ const StyledGridItem = styled(Grid)`
   min-width: 300px;
 `
 
-export const FeaturedApps = (): ReactElement | null => {
+export const Banner = (): ReactElement | null => {
   const router = useRouter()
   const [featuredApps, _, remoteSafeAppsLoading] = useRemoteSafeApps(SafeAppsTag.DASHBOARD_FEATURED)
 
