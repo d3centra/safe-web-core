@@ -38,7 +38,7 @@ const Header = ({ onMenuToggle }: HeaderProps): ReactElement => {
       <div className={classnames(css.element, css.hideMobile, css.logo)}>
         <Link href={logoHref} passHref>
           <a>
-            Decentra
+            <h3>Decentra</h3>
           </a>
         </Link>
       </div>
