@@ -29,8 +29,8 @@ const ExportLink = ({ children }: { children: ReactNode }): ReactElement => {
 const BANNERS: Record<string, ReactElement | string> = {
   '*': (
     <>
-      <b>Decentra offers an alternative frontend for Safe. Read more about our plans on developing social features </b>
-      <ExportLink>here</ExportLink>.
+      <b>Decentra offers an alternative frontend for Safe. Read more about our plans on developing social features  
+      <ExportLink>here</ExportLink>.</b>
     </>
   ),
 }
