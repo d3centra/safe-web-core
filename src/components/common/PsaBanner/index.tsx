@@ -30,7 +30,7 @@ const BANNERS: Record<string, ReactElement | string> = {
   '*': (
     <>
       <b>Decentra offers an alternative frontend for Safe. Read more about our plans on developing social features </b>
-      <ExportLink>here</ExportLink><b>.</b>
+      <b><ExportLink>here</ExportLink>.</b>
     </>
   ),
 }
