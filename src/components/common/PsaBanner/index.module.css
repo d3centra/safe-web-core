@@ -24,13 +24,14 @@
 
 .content {
   max-width: 960px;
+  padding: 24px;
   text-align: center;
 }
 
 .close {
   position: absolute;
-  right: 10px;
-  top: 6px;
+  right: 24px;
+  padding: 0px;
   z-index: 2;
 }
 
@@ -39,11 +40,5 @@
     position: relative;
     right: unset;
     top: unset;
-  }
-}
-
-@media (max-width: 600px) {
-  .banner {
-    padding: var(--space-1) var(--space-3);
   }
 }
