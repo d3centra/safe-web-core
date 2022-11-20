@@ -29,7 +29,7 @@ const ExportLink = ({ children }: { children: ReactNode }): ReactElement => {
 const BANNERS: Record<string, ReactElement | string> = {
   '*': (
     <>
-      <b>app.safe.global</b> is Safe&apos;s new official URL. Export your data from the old app{' '}
+      <b>Decentra offers an alternative frontend for Safe. Read more about our plans on developing social features </b>
       <ExportLink>here</ExportLink>.
     </>
   ),
