@@ -4,6 +4,8 @@
   justify-content: center;
   min-width: 70px;
   font-size: 12px;
+  margin: 8px;
+  border-radius: 6px;
 }
 
 .inlineIndicator {
