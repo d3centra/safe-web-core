@@ -6,13 +6,13 @@ const darkPalette = {
   },
   primary: {
     dark: '#0cb259',
-    main: '#48B798',
+    main: '#d6be93',
     light: '#A1A3A7',
   },
   secondary: {
     dark: '#636669',
     main: '#FFFFFF',
-    light: '#48B798',
+    light: '#d6be93',
     background: '#303033',
   },
   border: {
