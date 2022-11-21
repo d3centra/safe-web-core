@@ -4,8 +4,8 @@ import palette from '@/styles/colors'
 import darkPalette from '@/styles/colors-dark'
 
 const descriptionText =
-  'Safe (prev. Gnosis Safe) is the most trusted platform to manage digital assets on Ethereum and multiple EVMs. Over $40B secured.'
-const titleText = 'Safe'
+  'Decentra is building on  top of Safe (prev. Gnosis Safe) which the most trusted platform to manage digital assets on Ethereum and multiple EVMs. Over $40B secured.'
+const titleText = 'Decentra'
 
 const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
   <>
@@ -44,6 +44,9 @@ const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#000" />
+    
+    {/* Plausible Analytics */}
+    <script defer data-domain="app.decentra.so" src="https://plausible.io/js/script.js"></script>
   </>
 )
 
