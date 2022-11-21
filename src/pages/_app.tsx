@@ -31,7 +31,7 @@ import ErrorBoundary from '@/components/common/ErrorBoundary'
 import createEmotionCache from '@/utils/createEmotionCache'
 import MetaTags from '@/components/common/MetaTags'
 
-const GATEWAY_URL = IS_PRODUCTION || cgwDebugStorage.get() ? GATEWAY_URL_PRODUCTION : GATEWAY_URL_STAGING
+const GATEWAY_URL = IS_PRODUCTION || ? GATEWAY_URL_PRODUCTION : GATEWAY_URL_STAGING
 
 const InitApp = (): null => {
   setGatewayBaseUrl(GATEWAY_URL)
