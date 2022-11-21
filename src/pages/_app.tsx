@@ -8,7 +8,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import { setBaseUrl } from '@gnosis.pm/safe-react-gateway-sdk'
 import { CacheProvider, type EmotionCache } from '@emotion/react'
 import '@/styles/globals.css'
-import { IS_PRODUCTION, GATEWAY_URL_STAGING } from '@/config/constants'
+import { IS_PRODUCTION, GATEWAY_URL_PRODUCTION, GATEWAY_URL_STAGING } from '@/config/constants'
 import { StoreHydrator } from '@/store'
 import PageLayout from '@/components/common/PageLayout'
 import useLoadableStores from '@/hooks/useLoadableStores'
@@ -77,7 +77,7 @@ const WebCoreApp = ({ Component, pageProps, emotionCache = clientSideEmotionCach
     <StoreHydrator>
       <Head>
         <title key="default-title">Safe</title>
-        <MetaTags prefetchUrl={GATEWAY_URL_STAGING} />
+        <MetaTags prefetchUrl={GATEWAY_URL_PRODUCTION} />
       </Head>
 
       <CacheProvider value={emotionCache}>
