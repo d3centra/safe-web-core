@@ -33,7 +33,7 @@ import MetaTags from '@/components/common/MetaTags'
 
 const InitApp = (): null => {
   if (!IS_PRODUCTION) {
-    setBaseUrl(STAGING_GATEWAY_URL)
+    setBaseUrl(GATEWAY_URL_STAGING)
   }
 
   usePathRewrite()
