@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import AddressBookTable from '@/components/address-book/AddressBookTable'
 
-const AddressBook: NextPage = () => {
+const Chatroom: NextPage = () => {
   return (
     <>
       <Head>
