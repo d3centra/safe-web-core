@@ -1,11 +1,12 @@
 .banner {
-  background: linear-gradient(45deg, #923f43, #7A7DE9);
+  background: linear-gradient(45deg,#766952,#aa9776);
   color: #ffffff;
   padding: 0 var(--space-3);
   font-size: 16px;
   margin: 24px 0 0 24px;
-  border-radius: 18px;
+  border-radius: 12px;
   width: 100%;
+  border: 4px solid #cdad75;
 }
 
 .banner a {
