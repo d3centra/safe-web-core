@@ -14,10 +14,10 @@ const DebugToggle = (): ReactElement => {
   const dispatch = useAppDispatch()
   const isDarkMode = useDarkMode()
 
-  const [isProdGateway = false, setIsProdGateway] = useLocalStorage<boolean>(LS_KEY)
+  const [isProdGateway = true, setIsProdGateway] = setIsProdGateway(event.target.checked)
 
   const onToggle = (event: ChangeEvent<HTMLInputElement>) => {
-    setIsProdGateway(event.target.checked)
+    useLocalStorage<boolean>(LS_KEY)
 
     setTimeout(() => {
       location.reload()
