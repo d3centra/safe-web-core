@@ -77,7 +77,7 @@ const WebCoreApp = ({ Component, pageProps, emotionCache = clientSideEmotionCach
     <StoreHydrator>
       <Head>
         <title key="default-title">Safe</title>
-        <MetaTags prefetchUrl={GATEWAY_URL} />
+        <MetaTags />
       </Head>
 
       <CacheProvider value={emotionCache}>
