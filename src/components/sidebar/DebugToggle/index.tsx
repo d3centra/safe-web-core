@@ -14,7 +14,7 @@ const DebugToggle = (): ReactElement => {
   const dispatch = useAppDispatch()
   const isDarkMode = useDarkMode()
 
-  const [isProdGateway = true, setIsProdGateway] = useLocalStorage<boolean>(LS_KEY)
+  const [isProdGateway = false, setIsProdGateway] = useLocalStorage<boolean>(LS_KEY)
 
   const onToggle = (event: ChangeEvent<HTMLInputElement>) => {
     setIsProdGateway(event.target.checked)
