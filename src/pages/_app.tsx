@@ -31,10 +31,11 @@ import ErrorBoundary from '@/components/common/ErrorBoundary'
 import createEmotionCache from '@/utils/createEmotionCache'
 import MetaTags from '@/components/common/MetaTags'
 
-const GATEWAY_URL = IS_PRODUCTION
-
 const InitApp = (): null => {
-  setGatewayBaseUrl(GATEWAY_URL)
+  if (!IS_PRODUCTION) {
+    setBaseUrl(STAGING_GATEWAY_URL)
+  }
+
   usePathRewrite()
   useStorageMigration()
   useGtm()
