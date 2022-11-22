@@ -16,7 +16,7 @@
   padding-bottom: 6px;
 }
 
-.list :global .MuiListItemButton-root .Mui-selected .mui-style-blejce {
+.MuiListItemButton-root .Mui-selected .mui-style-blejce {
 border: 0px!important;
 }
 
