@@ -34,14 +34,6 @@ const PageLayout = ({ children }: { children: ReactElement }): ReactElement => {
         <Header onMenuToggle={onMenuToggle} />
       </header>
 
-      {/* Desktop sidebar */}
-      {!hideSidebar && <aside className={css.sidebar}>{sidebar}</aside>}
-
-      {/* Mobile sidebar */}
-      <Drawer variant="temporary" anchor="left" open={isMobileDrawerOpen} onClose={onMenuToggle}>
-        {sidebar}
-      </Drawer>
-
       <div className={cn(css.main, hideSidebar && css.mainNoSidebar)}>
         <div className={css.content}>
           <PageHeader title="" action={<NavTabs tabs={navItems} />} />
