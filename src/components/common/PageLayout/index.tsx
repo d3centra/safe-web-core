@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import Sidebar from '@/components/sidebar/Sidebar'
 import Header from '@/components/common//Header'
 import css from './styles.module.css'
+import { NavItems } from '@/components/sidebar/SidebarNavigation/config'
 import SafeLoadingError from '../SafeLoadingError'
 import Footer from '../Footer'
 import { AppRoutes } from '@/config/routes'
@@ -41,6 +42,7 @@ const PageLayout = ({ children }: { children: ReactElement }): ReactElement => {
 
       <div className={cn(css.main, hideSidebar && css.mainNoSidebar)}>
         <div className={css.content}>
+          <NavTabs tabs={NavItems} />
           <SafeLoadingError>{children}</SafeLoadingError>
         </div>
 
