@@ -8,6 +8,7 @@ import Header from '@/components/common//Header'
 import css from './styles.module.css'
 import { navItems } from '@/components/sidebar/SidebarNavigation/config'
 import NavTabs from '@/components/common/NavTabs'
+import PageHeader from '@/components/common/PageHeader'
 import SafeLoadingError from '../SafeLoadingError'
 import Footer from '../Footer'
 import { AppRoutes } from '@/config/routes'
@@ -43,7 +44,7 @@ const PageLayout = ({ children }: { children: ReactElement }): ReactElement => {
 
       <div className={cn(css.main, hideSidebar && css.mainNoSidebar)}>
         <div className={css.content}>
-          <NavTabs tabs={navItems} />
+          <PageHeader action={<NavTabs tabs={navItems} />} />
           <SafeLoadingError>{children}</SafeLoadingError>
         </div>
 
