@@ -44,7 +44,7 @@ const PageLayout = ({ children }: { children: ReactElement }): ReactElement => {
 
       <div className={cn(css.main, hideSidebar && css.mainNoSidebar)}>
         <div className={css.content}>
-          <PageHeader action={<NavTabs tabs={navItems} />} />
+          <PageHeader title="" action={<NavTabs tabs={navItems} />} />
           <SafeLoadingError>{children}</SafeLoadingError>
         </div>
 
