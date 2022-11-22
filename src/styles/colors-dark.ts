@@ -19,6 +19,7 @@ const darkPalette = {
     main: '#636669',
     light: '#1f1f23',
     background: '#121312',
+    paperspecial: '#242222',
   },
   error: {
     dark: '#AC2C3B',
