@@ -1,6 +1,5 @@
 import { useEffect, useState, type ReactElement } from 'react'
 import cn from 'classnames'
-import { Drawer } from '@mui/material'
 import { useRouter } from 'next/router'
 
 import Sidebar from '@/components/sidebar/Sidebar'
