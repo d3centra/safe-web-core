@@ -31,6 +31,10 @@
   background-color: var(--color-background-paper);
 }
 
+.mui-style-blejce .Mui-selected {
+  border: 0xp!important;
+}
+
 .listItemButton :global .beamer_icon.active {
   top: auto;
   left: 28px;
