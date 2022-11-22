@@ -14,7 +14,10 @@
   border-radius: 9px;
   padding-top: 6px;
   padding-bottom: 6px;
-  border: 0px!important
+}
+
+.list :global .MuiListItemButton-root .Mui-selected {
+border: 0px!important;
 }
 
 .list :global .MuiListItemButton-root {
